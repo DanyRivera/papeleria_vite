@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Mukta:wght@200;400;700&family=Pacifico&display=swap');
+/* font-family: 'Fredoka One', cursive;
+font-family: 'Mukta', sans-serif;
+font-family: 'Pacifico', cursive; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contenedor {
+    max-width: 150rem;
+    margin: 0 auto;
+    width: 80%;
+}
