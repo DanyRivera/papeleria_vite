@@ -44,10 +44,11 @@ const Header = () => {
                 </nav>
             </div>
 
-            <div className="flex flex-col md:flex-row gap-5 md:gap-0 items-center md:mt-20">
+            <div className="flex flex-col md:flex-row gap-5 items-center md:gap-14  md:mt-20">
                 <div>
                     <h2 className="text-4xl md:text-6xl text-primary tracking-wide leading-tight">Lo mejor de Papelería & Mercería</h2>
                     <p className="text-xl md:text-2xl text-secondary font-light mt-5 uppercase">Encuentra todo lo que buscas con nosotros</p>
+                    {/* <img className="hidden md:block w-full h-24 mt-10 text-center" src="/img/spray.png" alt="Spray" /> */}
                 </div>
                 <img src="/img/ilustracion.svg" alt="ilustracion" />
             </div>
