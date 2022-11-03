@@ -4,6 +4,7 @@ import HorariosContacto from "./components/HorariosContacto";
 import Servicios from "./components/Servicios";
 import Footer from "./components/Footer";
 import Up from "./components/Up";
+import SliderImg from "./components/SliderImg";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
     <>
       <Header />
       <Servicios />
+      <SliderImg />
       <div>
 
         <div className="mb-8">
