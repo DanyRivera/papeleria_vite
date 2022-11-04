@@ -28,9 +28,30 @@ const HorariosContacto = () => {
                     </ul>
 
                     <ul className="flex flex-col gap-5 my-14 text-xl md:text-2xl">
-                        <li className="font-bold text-primary">WhatsApp: <span className="font-normal text-secondary">2225943199</span></li>
-                        <li className="font-bold text-primary">Email: <span className="font-normal text-secondary text-[16px] md:text-2xl">papeleria.internet.mg@gmail.com</span></li>
-                        <li className="font-bold text-primary">FaceBook: <span className="font-normal text-secondary">@papeleria_mg</span></li>
+                        <li className="font-bold text-primary">WhatsApp:
+                            <a
+                                className="font-normal text-secondary md:ml-2"
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://api.whatsapp.com/send?phone=2211831524"
+                            >2225943199</a>
+                        </li>
+                        <li className="font-bold text-primary">Email:
+                            <a
+                                className="font-normal text-secondary text-[16px] md:text-2xl md:ml-2"
+                                target="_blank"
+                                rel="noreferrer"
+                                href="mailto:papeleria.internet.mg@gmail.com"
+                            >papeleria.internet.mg@gmail.com</a>
+                        </li>
+                        <li className="font-bold text-primary">FaceBook:
+                            <a 
+                                className="font-normal text-secondary md:ml-2"
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://www.facebook.com/PapeleriaMG"
+                            >@papeleria_mg</a>
+                        </li>
                     </ul>
 
                 </div>
