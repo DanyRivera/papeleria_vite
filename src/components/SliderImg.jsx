@@ -22,16 +22,16 @@ const SliderImg = () => {
     ]
 
     return (
-        <section className="hidden md:block">
+        <section className="hidden lg:block">
             <div className="mb-5">
                 <h3 className="font-fredoka mt-24 text-center text-3xl text-primary mb-2">Galería</h3>
                 <img src="/img/spray.png" alt="spray" className="w-44 md:w-72 h-8 mx-auto" />
             </div>
 
-            <Slider {...settings} className='mx-24 text-primary'>
+            <Slider {...settings} className=' lg:mx-[25rem] text-primary'>
                 {urlImagemes.map((url, index) => (
-                    <div key={index} className="outline-none my-8">
-                        <img src={url} alt={url} className="md:w-1/2 md:mx-auto " />
+                    <div key={index} className="outline-none my-8 md:pr-10 md:pl-14">
+                        <img src={url} alt={url} className=" md:mx-auto" />
                     </div>
                 ))}
             </Slider>
