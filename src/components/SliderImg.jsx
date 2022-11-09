@@ -28,10 +28,10 @@ const SliderImg = () => {
                 <img src="/img/spray.png" alt="spray" className="w-44 md:w-72 h-8 mx-auto" />
             </div>
 
-            <Slider {...settings} className=' lg:mx-[25rem] text-primary'>
+            <Slider {...settings} className=' lg:mx-[20rem] text-primary'>
                 {urlImagemes.map((url, index) => (
-                    <div key={index} className="outline-none my-8 md:pr-10 md:pl-14">
-                        <img src={url} alt={url} className=" md:mx-auto" />
+                    <div key={index} className="outline-none my-8 ">
+                        <img src={url} alt={url} className="md:mx-auto" />
                     </div>
                 ))}
             </Slider>
